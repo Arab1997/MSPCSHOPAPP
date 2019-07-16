@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AA5A89</color>
+    <color name="colorPrimaryDark">#94456E</color>
+    <color name="colorAccent">#a35470</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_color">#657073</color>
+    <color name="trans">#f7f6f6</color>
+    <color name="upcoming">#5888f9</color>
+    <color name="ongoing">#2fb91a</color>
+    <color name="ended">#a35470</color>
+</resources>

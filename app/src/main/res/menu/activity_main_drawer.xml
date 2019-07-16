@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/groupMain"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/navGroup"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Group" />
+        <item
+            android:id="@+id/navBlogs"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Blogs" />
+        <item
+            android:id="@+id/navOrganizations"
+            android:icon="@drawable/ic_business_center_black_24dp"
+            android:title="Organizations" />
+        <item
+            android:id="@+id/navEvents"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:checked="true"
+            android:title="Events" />
+        <item
+            android:id="@+id/navProfiles"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profiles" />
+        <item
+            android:id="@+id/navMarketPlace"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Marketplace" />
+    </group>
+    <group
+        android:id="@+id/groupTools"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navMyCorporateProfile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Corporate profile" />
+        <item
+            android:id="@+id/navMessages"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/navNotifications"
+            android:icon="@drawable/ic_flag_black_24dp"
+            android:title="Notifications" />
+    </group>
+
+</menu>
